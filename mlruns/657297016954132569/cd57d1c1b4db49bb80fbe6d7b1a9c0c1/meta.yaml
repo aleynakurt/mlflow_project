@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/aleynakurt/Desktop/mlops/mlruns/657297016954132569/cd57d1c1b4db49bb80fbe6d7b1a9c0c1/artifacts
+end_time: 1746557834383
+entry_point_name: ''
+experiment_id: '657297016954132569'
+lifecycle_stage: active
+run_id: cd57d1c1b4db49bb80fbe6d7b1a9c0c1
+run_name: RandomForest_n_estimators=100_max_depth=None_class_weight=balanced
+run_uuid: cd57d1c1b4db49bb80fbe6d7b1a9c0c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746557831426
+status: 3
+tags: []
+user_id: aleynakurt

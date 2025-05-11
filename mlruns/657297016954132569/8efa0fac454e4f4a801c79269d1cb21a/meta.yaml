@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/aleynakurt/Desktop/mlops/mlruns/657297016954132569/8efa0fac454e4f4a801c79269d1cb21a/artifacts
+end_time: 1746559209617
+entry_point_name: ''
+experiment_id: '657297016954132569'
+lifecycle_stage: active
+run_id: 8efa0fac454e4f4a801c79269d1cb21a
+run_name: XGBoost_n_estimators=100_max_depth=5_learning_rate=0.1_eval_metric=logloss_use_label_encoder=False
+run_uuid: 8efa0fac454e4f4a801c79269d1cb21a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746559206236
+status: 3
+tags: []
+user_id: aleynakurt

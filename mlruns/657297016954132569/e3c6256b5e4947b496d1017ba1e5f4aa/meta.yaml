@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/aleynakurt/Desktop/mlops/mlruns/657297016954132569/e3c6256b5e4947b496d1017ba1e5f4aa/artifacts
+end_time: 1746559206234
+entry_point_name: ''
+experiment_id: '657297016954132569'
+lifecycle_stage: active
+run_id: e3c6256b5e4947b496d1017ba1e5f4aa
+run_name: LogisticRegression_C=1.0_penalty=l2_class_weight=balanced_solver=liblinear_max_iter=500
+run_uuid: e3c6256b5e4947b496d1017ba1e5f4aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746559203358
+status: 3
+tags: []
+user_id: aleynakurt

@@ -1,0 +1,1 @@
+LogisticRegression_C=0.1_penalty=l2_class_weight=balanced_solver=liblinear_max_iter=500

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1746905170481
+current_stage: None
+description: null
+last_updated_timestamp: 1746905170481
+name: RandomForest_n_estimators=100_max_depth=10_class_weight=balanced_Model
+run_id: 227794ee55b943bf86855e91542af09c
+run_link: null
+source: file:///Users/aleynakurt/Desktop/mlops/mlruns/657297016954132569/227794ee55b943bf86855e91542af09c/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///Users/aleynakurt/Desktop/mlops/mlruns/657297016954132569/227794ee55b943bf86855e91542af09c/artifacts/model
+user_id: null
+version: 1

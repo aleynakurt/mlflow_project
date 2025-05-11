@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/aleynakurt/Desktop/mlops/mlruns/657297016954132569/056e74771f8941e59b8318490f8c5399/artifacts
+end_time: 1746905094899
+entry_point_name: ''
+experiment_id: '657297016954132569'
+lifecycle_stage: active
+run_id: 056e74771f8941e59b8318490f8c5399
+run_name: GradientBoosting_n_estimators=100_max_depth=5_learning_rate=0.1
+run_uuid: 056e74771f8941e59b8318490f8c5399
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746905067912
+status: 3
+tags: []
+user_id: aleynakurt

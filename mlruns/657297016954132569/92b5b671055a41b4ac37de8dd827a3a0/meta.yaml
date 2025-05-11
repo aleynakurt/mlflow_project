@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/aleynakurt/Desktop/mlops/mlruns/657297016954132569/92b5b671055a41b4ac37de8dd827a3a0/artifacts
+end_time: 1746559220844
+entry_point_name: ''
+experiment_id: '657297016954132569'
+lifecycle_stage: active
+run_id: 92b5b671055a41b4ac37de8dd827a3a0
+run_name: LightGBM_n_estimators=100_max_depth=10_learning_rate=0.1_boosting_type=gbdt
+run_uuid: 92b5b671055a41b4ac37de8dd827a3a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746559216779
+status: 3
+tags: []
+user_id: aleynakurt

@@ -1,0 +1,120 @@
+mlflow_envaleynakurt@192 mlops % /Users/aleynakurt/Desktop/mlops/mlflow_env/bin/python /Users/aleynakurt/Desktop/mlops
+/mlops.py
+Training set shape: (8000, 11)
+Testing set shape: (2000, 11)
+
+============================================================
+MODEL: RandomForest_n_estimators=100_max_depth=10_class_weight=balanced
+------------------------------------------------------------
+ Accuracy : 0.8375
+ Precision: 0.5936
+ Recall   : 0.6388
+ F1 Score : 0.6154
+============================================================
+
+============================================================
+MODEL: RandomForest_n_estimators=100_max_depth=None_class_weight=balanced
+------------------------------------------------------------
+ Accuracy : 0.8600
+ Precision: 0.7773
+ Recall   : 0.4373
+ F1 Score : 0.5597
+============================================================
+
+============================================================
+MODEL: RandomForest_n_estimators=200_max_depth=10_class_weight=balanced
+------------------------------------------------------------
+ Accuracy : 0.8385
+ Precision: 0.5959
+ Recall   : 0.6413
+ F1 Score : 0.6178
+============================================================
+
+============================================================
+MODEL: RandomForest_n_estimators=200_max_depth=None_class_weight=balanced
+------------------------------------------------------------
+ Accuracy : 0.8630
+ Precision: 0.7930
+ Recall   : 0.4423
+ F1 Score : 0.5678
+============================================================
+
+============================================================
+MODEL: LogisticRegression_C=0.1_penalty=l2_class_weight=balanced_solver=liblinear_max_iter=500
+------------------------------------------------------------
+ Accuracy : 0.7125
+ Precision: 0.3862
+ Recall   : 0.7002
+ F1 Score : 0.4978
+============================================================
+
+============================================================
+MODEL: LogisticRegression_C=1.0_penalty=l2_class_weight=balanced_solver=liblinear_max_iter=500
+------------------------------------------------------------
+ Accuracy : 0.7135
+ Precision: 0.3872
+ Recall   : 0.7002
+ F1 Score : 0.4987
+============================================================
+/Users/aleynakurt/Desktop/mlops/mlflow_env/lib/python3.13/site-packages/xgboost/training.py:183: UserWarning: [22:23:39] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+
+============================================================
+MODEL: XGBoost_n_estimators=100_max_depth=5_learning_rate=0.1_eval_metric=logloss_use_label_encoder=False
+------------------------------------------------------------
+ Accuracy : 0.8705
+ Precision: 0.7960
+ Recall   : 0.4889
+ F1 Score : 0.6058
+============================================================
+/Users/aleynakurt/Desktop/mlops/mlflow_env/lib/python3.13/site-packages/xgboost/training.py:183: UserWarning: [22:24:01] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+
+============================================================
+MODEL: XGBoost_n_estimators=100_max_depth=10_learning_rate=0.1_eval_metric=logloss_use_label_encoder=False
+------------------------------------------------------------
+ Accuracy : 0.8550
+ Precision: 0.7143
+ Recall   : 0.4791
+ F1 Score : 0.5735
+============================================================
+
+============================================================
+MODEL: GradientBoosting_n_estimators=100_max_depth=5_learning_rate=0.1
+------------------------------------------------------------
+ Accuracy : 0.8705
+ Precision: 0.7913
+ Recall   : 0.4939
+ F1 Score : 0.6082
+============================================================
+
+============================================================
+MODEL: GradientBoosting_n_estimators=100_max_depth=10_learning_rate=0.1
+------------------------------------------------------------
+ Accuracy : 0.8500
+ Precision: 0.6974
+ Recall   : 0.4644
+ F1 Score : 0.5575
+============================================================
+
+TOP 3 MODELLER
+============================================================
+RandomForest_n_estimators=100_max_depth=10_class_weight=balanced => F1 Score: 0.6336
+RandomForest_n_estimators=200_max_depth=10_class_weight=balanced => F1 Score: 0.6210
+RandomForest_n_estimators=200_max_depth=10_class_weight=balanced => F1 Score: 0.6204
+
+TOP 3 MODELLER REGISTRY'YE EKLENİYOR
+============================================================
+Successfully registered model 'RandomForest_n_estimators=100_max_depth=10_class_weight=balanced_Model'.
+Created version '1' of model 'RandomForest_n_estimators=100_max_depth=10_class_weight=balanced_Model'.
+1. Model: RandomForest_n_estimators=100_max_depth=10_class_weight=balanced_Model => Versiyon: 1
+Successfully registered model 'RandomForest_n_estimators=200_max_depth=10_class_weight=balanced_Model'.
+Created version '1' of model 'RandomForest_n_estimators=200_max_depth=10_class_weight=balanced_Model'.
+2. Model: RandomForest_n_estimators=200_max_depth=10_class_weight=balanced_Model => Versiyon: 1
+Registered model 'RandomForest_n_estimators=200_max_depth=10_class_weight=balanced_Model' already exists. Creating a new version of this model...
+Created version '2' of model 'RandomForest_n_estimators=200_max_depth=10_class_weight=balanced_Model'.
+3. Model: RandomForest_n_estimators=200_max_depth=10_class_weight=balanced_Model => Versiyon: 2
