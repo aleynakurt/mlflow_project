@@ -142,7 +142,7 @@ print("="*60)
 for run in runs:
     print(run.data.params["model_name"], "=> F1 Score:", f"{run.data.metrics['f1_score']:.4f}")
 
-print("\nTOP 3 MODELLER REGISTRY'YE EKLENİYOR")
+print("\nTOP 3 MODELS ARE ADDED TO REGISTRY")
 print("="*60)
 
 for i, run in enumerate(runs, 1):
