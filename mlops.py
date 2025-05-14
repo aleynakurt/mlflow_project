@@ -137,7 +137,7 @@ runs = client.search_runs(
     order_by=["metrics.f1_score DESC"],
     max_results=2
 )
-print("\nTOP 2 MODELLER")
+print("\nTOP 2 MODELS")
 print("="*60)
 for run in runs:
     print(run.data.params["model_name"], "=> F1 Score:", f"{run.data.metrics['f1_score']:.4f}")
